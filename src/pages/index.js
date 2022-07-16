@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
 export default function Home({ data }) {
   console.log(data)
   const image = getImage(data.file.childImageSharp.gatsbyImageData)

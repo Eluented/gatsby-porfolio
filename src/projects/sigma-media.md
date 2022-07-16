@@ -1,8 +1,10 @@
 ---
 title: Sigma Media
 stack: Express & HTML/CSS
-slug: the-dojo-coffee-house
+slug: sigma-media
 date: 2022-04-22T00:00:00+00:00
+thumb: ../images/thumbs/chadWhitesigma.png
+featuredImg: ../images/featured/sigma-media.png
 ---
 
 **Lorem ninja ipsum dolor** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. *Duis ninja autem* vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui 
