@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     align-items: center;
+    justify-content: center;
   }
   .header h2 {
     font-size: 4em;
@@ -20,3 +21,12 @@
     margin-top: 20px;
     font-weight: 500;
   }
+
+.about {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}

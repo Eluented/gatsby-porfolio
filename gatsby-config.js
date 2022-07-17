@@ -24,6 +24,6 @@ module.exports = {
     title: 'Onur Belek',
     description: 'Full Stack Developer',
     copyright: 'This website is copyright 2021 Onur Belek',
-    contact: 'bruh@gmail.com',
+    contact: 'onurbelek@outlook.com',
   },
 }

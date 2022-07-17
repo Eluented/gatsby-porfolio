@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import * as styles from '../styles/project-details.css'
+import { details, htmls, featured } from '../styles/project-details.css'
 import { graphql } from 'gatsby';
 
 function ProjectDetails({ data }) {
@@ -12,13 +12,13 @@ function ProjectDetails({ data }) {
   const image = getImage(data.markdownRemark.frontmatter.featuredImg)
   return (
     <Layout>
-        <div className={styles.details}> 
-            <h2>{title}</h2>
-            <h3>{stack}</h3>
-            <div className={styles.featured}>
+        <div> 
+            <h2 style={{fontSize: '3.5em', marginTop: '80px'}}>{title}</h2>
+            <h3 style={{fontSize: '2em', fontWeight: 400, marginBottom: '40px'}}>{stack}</h3>
+            <div style={{marginTop: '40px'}}>
                 <GatsbyImage image={image} alt="an image about the project"/>
             </div>
-            <div className={styles.html} dangerouslySetInnerHTML={{__html: html}}></div>
+            <div style={{marginBottom: '40px'}} dangerouslySetInnerHTML={{__html: html}}></div>
         </div>
     </Layout>
   )

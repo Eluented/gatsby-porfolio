@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { navigate } from "@reach/router"
 
 export default function Home({ data }) {
   console.log(data)
@@ -11,14 +12,16 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={styles.header}>
-
         <div>
-          <h1>Onur </h1>
+          <h1>Onur Belek</h1>
           <h3>Full Stack Developer</h3>
-          <p> graduate</p>
+          <p>Ambitious futureproof graduate</p>
           <Link className={styles.btn} to='/projects'>My Portfolio Projects</Link>
         </div>
-        <GatsbyImage image={image} alt="Banner" />
+        <a href="https://www.linkedin.com/in/onur-belek-002085220/" target="_blank">
+          <GatsbyImage style={{borderRadius: '50%'}}image={image} alt="Banner" />
+        </a>
+        
       </section> 
     </Layout>
 

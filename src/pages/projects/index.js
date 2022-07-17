@@ -23,7 +23,7 @@ const Projects = ({ data }) => {
             </Link>
           ))}
         </div>
-        <p>Like what you see? Email me at { contact } to work together!</p>
+        <p>Like what you see? Email me at <strong>{ contact }</strong> to work together!</p>
       </div>
     </Layout>
   );
