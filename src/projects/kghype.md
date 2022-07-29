@@ -7,6 +7,6 @@ thumb: ../images/thumbs/KGHYPE_logo.png
 featuredImg: ../images/featured/kghypeEcom.jpeg
 ---
 
-### [Click Here to see the gitHub repo!](https://github.com/Eluented/HABITAT) 
+### [Click Here to see the gitHub repo!](https://github.com/Eluented/KGHYPE) 
 
 A work in progress Ecommerce website that uses the following tech stack: React, Redux, Firebase, NoSQL database. 
